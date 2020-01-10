@@ -1,0 +1,24 @@
+
+title: Renan Menezes
+email: renan.f.meneses@icloud.com
+sobremim: "Profissional de TI e entusiasta da área de Desenvolvimento e Segurança. Apaixonado pelo mundo Linux.Estudante de graduação em Analise e Desenvolvimento de Sistemas pela UniFanor | Wyden "
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "www.renan-meneses.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
+twitter_username: jekyll-twitter
+github_username:  jekyll-github
+
+# Build settings
+markdown: kramdown
+permalink: :year/:title
+theme: minima
+plugins:
+  - jekyll-feed
+
+
+#Social Profile
+linkedin: https://www.linkedin.com/in/renan-meneses-a75466ab/
+github: https://github.com/renan-meneses
+instagram: https://www.instagram.com/renan.pato/
+twitter: https://twitter.com/reeh_meneses
+facebook: https://www.facebook.com/renanmenezes12?ref=bookmarks

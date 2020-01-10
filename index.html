@@ -1,0 +1,22 @@
+---
+layout: default
+title: Renan Menezes
+---
+
+{% if site.post.size == 0 %}
+	<div class="subheading mb-2">Pensando ....</div>
+{% else %}
+	{% for site.post in post %}
+		<div class="content list">
+			<div class="list-item">
+				<h3 class="list-post-title">
+					<a href="{{post.url}}"> - {{post.title}}</a>
+				</h3>
+				<div class="list-post-date">
+					<time>{{post.date | date_to_string}}</time>
+					<br><br>
+				</div>
+			</div>
+		</div>
+	{% endfor %}
+{% endif %}
