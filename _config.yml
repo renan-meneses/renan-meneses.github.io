@@ -22,3 +22,6 @@ github: https://github.com/renan-meneses
 instagram: https://www.instagram.com/renan.pato/
 twitter: https://twitter.com/reeh_meneses
 facebook: https://www.facebook.com/renanmenezes12?ref=bookmarks
+
+#Thema Dracula
+remote_theme: "dracula/gh-pages"
