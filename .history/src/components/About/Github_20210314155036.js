@@ -9,10 +9,10 @@ function Github() {
     background: "transparent",
     text: "#ffffff",
     grade4: "#006633",
-    grade3: "#009a49",
-    grade2: "#91c73e",
-    grade1: "#a9d267",
-    grade0: "#f0ebeb",
+    grade3: "#4ea76a",
+    grade2: "#7ccd7c",
+    grade1: "#91c73e",
+    grade0: "#a9d267",
   };
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>

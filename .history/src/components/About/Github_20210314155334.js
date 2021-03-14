@@ -12,7 +12,7 @@ function Github() {
     grade3: "#009a49",
     grade2: "#91c73e",
     grade1: "#a9d267",
-    grade0: "#f0ebeb",
+    grade0: "#ecd9fc",
   };
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
