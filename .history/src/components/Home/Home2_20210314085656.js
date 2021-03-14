@@ -35,11 +35,11 @@ function Home2() {
               Whenever possible, I also apply my passion for developing products
               with
               <i>
-                <b className="purple"> Modern Javascript Frameworks and Python Frameworks</b>
+                <b className="purple"> Modern Javascript Frameworks</b>
               </i>
                 &nbsp; like
               <i>
-                <b className="purple"> Django, Flask, , Next.js, Node.js and React.js</b>
+                <b className="purple"> Node.js and React.js</b>
               </i>
             </p>
           </Col>
