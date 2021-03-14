@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/renan-meneses.github.io/static/css/main.0a749924.chunk.css",
-    "main.js": "/renan-meneses.github.io/static/js/main.5408bb89.chunk.js",
-    "main.js.map": "/renan-meneses.github.io/static/js/main.5408bb89.chunk.js.map",
+    "main.js": "/renan-meneses.github.io/static/js/main.c2afcc00.chunk.js",
+    "main.js.map": "/renan-meneses.github.io/static/js/main.c2afcc00.chunk.js.map",
     "runtime-main.js": "/renan-meneses.github.io/static/js/runtime-main.ca47107c.js",
     "runtime-main.js.map": "/renan-meneses.github.io/static/js/runtime-main.ca47107c.js.map",
     "static/css/2.20aa2d7b.chunk.css": "/renan-meneses.github.io/static/css/2.20aa2d7b.chunk.css",
@@ -31,6 +31,6 @@
     "static/css/2.20aa2d7b.chunk.css",
     "static/js/2.e71caa58.chunk.js",
     "static/css/main.0a749924.chunk.css",
-    "static/js/main.5408bb89.chunk.js"
+    "static/js/main.c2afcc00.chunk.js"
   ]
 }
