@@ -1,6 +1,7 @@
 {
   "homepage":"https://renan-meneses.github.io/",
   "name": "portfolio",
+  // "homepage":"renan-meneses.github.io",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
