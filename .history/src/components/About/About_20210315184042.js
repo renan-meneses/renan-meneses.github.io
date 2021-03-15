@@ -43,14 +43,12 @@ function About() {
           <Techstack iconName="devicon-cplusplus-line" />
           <Techstack iconName="devicon-python-plain-wordmark " />
           <Techstack iconName="devicon-javascript-plain " />
-          <Techstack iconName="devicon-typescript-plain"/>
           <Techstack iconName="devicon-django-plain"/>
           <Techstack iconName="devicon-dot-net-plain-wordmark" />
           <Techstack iconName="devicon-laravel-plain"/>
           <Techstack iconName="devicon-nodejs-plain-wordmark " />
           <Techstack iconName="devicon-express-original-wordmark" />
           <Techstack iconName="devicon-react-original-wordmark" />
-          <Techstack iconName="devicon-vuejs-plain-wordmark"/>
           <Techstack iconName="devicon-mongodb-plain-wordmark" />
           <Techstack iconName="devicon-git-plain-wordmark" />
           <Techstack iconName="devicon-bootstrap-plain-wordmark" />
