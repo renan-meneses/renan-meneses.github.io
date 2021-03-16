@@ -5,16 +5,9 @@ import BlogCard from "./BlogsCards";
 import Particle from "../Particle";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import axios from "axios";
-import GitHubUserService from "../../Services/GitHubUserService";
 
 
 function Projects() {
-
-  var username = "renan-meneses"
-  GitHubUserService.respositores(username)
-  console.log(GitHubUserService.respositores(username))
-
   return (
     <Container fluid className="project-section">
       <Particle />
@@ -27,8 +20,6 @@ function Projects() {
 </p>
 
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-
-          
           {/* <Col md={4} className="project-card">
             <ProjectCard
               imgPath={leaf}

@@ -3,11 +3,8 @@ import Card from "react-bootstrap/Card";
 import Button from "react-bootstrap/Button";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import axios from "axios";
-import GitHubUserService from "../../Services/GitHubUserService";
 
 function ProjectCards(props) {
- 
   return (
     <Card className="project-card-view">
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />

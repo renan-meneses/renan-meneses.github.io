@@ -7,7 +7,11 @@ import axios from "axios";
 import GitHubUserService from "../../Services/GitHubUserService";
 
 function ProjectCards(props) {
- 
+
+  var username = "renan-meneses"
+  console.log(username)
+  GitHubUserService.respositores(username)
+  console.log(GitHubUserService.respositores(username))
   return (
     <Card className="project-card-view">
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />

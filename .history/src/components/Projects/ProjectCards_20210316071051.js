@@ -7,7 +7,12 @@ import axios from "axios";
 import GitHubUserService from "../../Services/GitHubUserService";
 
 function ProjectCards(props) {
- 
+
+  var username = "renan-meneses"
+  getReposByUsername(username) {
+     axios.get('https://api.github.com/users/' + username + '/repos');
+}
+  console.log(getReposByUsername)
   return (
     <Card className="project-card-view">
       <Card.Img variant="top" src={props.imgPath} alt="card-img" />
