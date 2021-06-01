@@ -11,7 +11,7 @@ function AboutCard() {
           <p style={{ textAlign: "justify" }}>
           Oi pessoal eu sou <span className="purple">Renan Meneses </span>
              de  <span className="purple"> Fortaleza, Ce.</span>
-            <br />Sou um Desenvolvedor, apaixonado pelo mundo linux, que se aventura na arte dos  desenvolvimeto de game e estudando DevOps.
+            <br />Sou um Desenvolvedor, apaixonado pelo mundo linux, que se aventura na arte dos  desenvolvimeto de game e atualmente estou estudando DevOps.
             <br />
             <br />
             Além de programar, algumas outras atividades que adoro fazer:        

@@ -53,7 +53,7 @@ html {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  background: #2d1950;
+  background: #192b50;
 }
 
 /* Handle */
@@ -64,7 +64,7 @@ html {
 
 /* Handle on hover */
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(137, 130, 235, 0.911);
+  background: rgba(16, 95, 191, 0.911);
   border-radius: 12px;
 }
 
@@ -74,7 +74,7 @@ html {
 .sticky {
   background-color: #212038d8 !important;
   transition: all 0.3s ease-out 0s !important;
-  box-shadow: 0px 10px 10px 0px rgba(9, 5, 29, 0.171) !important;
+  box-shadow: 0px 10px 10px 0px rgba(12, 64, 198, 0.171) !important;
   backdrop-filter: blur(15px) !important;
 }
 
@@ -254,7 +254,7 @@ html {
 .home-section {
   position: relative;
   z-index: -1;
-  background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
+  background-image: var(--image-gradient), url(./Assets/images.jpg);
   background-position: top center;
   background-repeat: no-repeat;
   padding-bottom: 30px !important;
@@ -278,17 +278,17 @@ html {
 }
 
 .main-name {
-  color: #625ff8;
+  color: #000000;
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #7c6adf !important;
+  color: #000000 !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
   font-size: 2.4em !important;
-  color: #6281d6 !important;
+  color: #398aed !important;
 }
 
 @media (max-width: 767px) {
@@ -392,7 +392,7 @@ html {
 }
 
 .icon-colour {
-  color: #700c86 !important;
+  color: #292729 !important;
 }
 
 /* --------- */
@@ -435,7 +435,7 @@ html {
 }
 
 .blockquote-footer {
-  color: #a588c0 !important;
+  color: #000000 !important;
 }
 /* --------- */
 /* Projects */
@@ -550,12 +550,12 @@ html {
   font-size: 4.5em !important;
   margin: 15px !important;
   opacity: 0.93 !important;
-  border: 1.7px solid rgba(39, 40, 108, 0.637) !important;
+  border: 1.7px solid rgba(6, 49, 123, 0.637) !important;
   vertical-align: middle !important;
   text-align: center !important;
   border-radius: 5px !important;
   display: table !important;
-  box-shadow: 4px 5px 4px 3px rgba(89, 4, 168, 0.137) !important;
+  box-shadow: 4px 5px 4px 3px rgba(95, 139, 216, 0.137) !important;
   overflow: hidden !important;
   transition: all 0.4s ease 0s !important;
 }
@@ -638,14 +638,14 @@ html {
 .resume .resume-item {
   padding: 0 0 10px 25px;
   margin-top: -2px;
-  border-left: 2px solid #8a49a8;
+  border-left: 2px solid #4866b0;
   position: relative;
 }
 
 .resume .resume-item .resume-title {
   line-height: 18px;
   font-size: 0.9em;
-  background: #5234795d;
+  background: #3453795d;
   padding: 8px 15px;
   display: inline-block;
   font-weight: 600;
@@ -675,7 +675,7 @@ html {
   left: -9px;
   top: 0;
   background: #fff;
-  border: 2px solid #8a49a8;
+  border: 2px solid #323232;
 }
 
 .like-item {
@@ -685,8 +685,8 @@ html {
 }
 
 .like-btn {
-  background-color: #934cce5e !important;
-  border-color: #934cce5e !important;
+  background-color: #3432355e !important;
+  border-color: #3636375e !important;
   padding: 0.25rem 0.98rem !important;
   border-radius: 5px !important;
   line-height: 1.4 !important;
@@ -720,7 +720,7 @@ html {
 
 .fork-btn-inner {
   line-height: 1.4em !important;
-  background-color: #934cce5e !important;
+  background-color: #4745485e !important;
   padding: 0.25rem 1.1rem !important;
   vertical-align: middle !important;
   text-align: center !important;
@@ -728,8 +728,8 @@ html {
 
 .fork-btn-inner:hover {
   transform: translateY(-2px) !important;
-  background-color: #a24dd386 !important;
-  border-color: #a24dd386 !important;
+  background-color: #2f2d3086 !important;
+  border-color: #312f3286 !important;
 }
 .fork-btn-inner::after {
   display: none !important;
