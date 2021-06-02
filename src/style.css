@@ -16,6 +16,7 @@ html {
 
 .purple {
   color: var(--imp-text-color) !important;
+  font-style: initial !important;
 }
 
 /* --------- */
@@ -152,8 +153,8 @@ html {
 }
 
 .logo {
-  height: 1.4em !important;
-  width: 2.5em !important;
+  height: 50% !important;
+  width: 50% !important;
 }
 
 .navbar-nav .nav-link {
@@ -278,12 +279,12 @@ html {
 }
 
 .main-name {
-  color: #000000;
+  color: #a24dd386;
 }
 
 .Typewriter__wrapper {
   font-size: 2.2em !important;
-  color: #000000 !important;
+  color: #a24dd386 !important;
   font-weight: 600 !important;
 }
 .Typewriter__cursor {
