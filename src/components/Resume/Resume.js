@@ -43,7 +43,10 @@ function Resume() {
               empresa = "MWV Rigesa"
               date="Fevereiro 2014 - Março 2015"
               content={[
-                "Criação de rotinas, recebimento e expedição de materiais, veriﬁcação de equipamentos de informática, lançamento de notas no SAP",
+                "Criação de rotinas.", 
+                "Recebimento e expedição de materiais.", 
+                "Veriﬁcação de equipamentos de informática", 
+                "Lançamento de notas no SAP"
               ]}
             />
             <Resumecontent
@@ -51,69 +54,91 @@ function Resume() {
               empresa = "Freelancer"
               date="Março 2017 -  2019"
               content={[
-                "Criação de api's em Laravel, Django e Springboot, correção de sistemas em python, PHP e Java, criação de aplicativos híbridos com React Native, criação te templates com Bootstrap e ReactJs.",
+                "Criação de api's em Laravel, Django e Springboot.", 
+                "Correção de sistemas em python, PHP e Java.", 
+                "Criação de aplicativos híbridos com React Native.", 
+                "Criação te templates com Bootstrap e ReactJs."
                 
               ]}
             />
             <Resumecontent
               title="Analista de desenvolvimento/ desenvolvedor"
               empresa = "SoftMidia"
-              date="June 2020 - August 2020"
+              date="Maio 2019 - Agosto 2019"
               content={[
                 "Criação de api's em python e Laravel",
-                "desenvolvimento de templates em Bootstrap e ReactJs.", 
-                "criação de automações em python e integração.",
-                "manutenção de bancos de dados MySql."
+                "Desenvolvimento de templates em Bootstrap e ReactJs.", 
+                "Criação de automações em python e integração.",
+                "Manutenção de bancos de dados MySql."
               ]}
             />
             <Resumecontent
-              title="JUNIOR ML ENGINEER [Omdena]"
-              empresa = "Freelancer"
-              date="June 2020 - August 2020"
+              title="Analista de Desenvolvimento / Desenvolvedor"
+              empresa = "Softbuilder"
+              date="Março 2020 - Novembro 2020"
               content={[
-                "Assembled the data from various social media platforms using Twitter, Reddit.Interpreted the collected text using word-clouds and various other factors that affect the change of sentiments of youth.",
-                " Utilized the data to find the issues using Topic Modelling and Building models using LSTM, BERT to predict the sentiments of the youth.",
+                "Criação de templates usando ReactJs e VueJs.", 
+                "Criação de api's com Django e Laravel.", 
+                "Desenvolvimento de integrações com Python.",
+                "Conﬁguração de servidores Linux.",
+                "Manutenção de bancos de dados PostgreSQL."
+              ]}
+            />
+            <Resumecontent
+              title="Analista de Desenvolvimento / Desenvolvedor"
+              empresa = "Hapvida"
+              date="Novembro 2020 - Atualmente"
+              content={[
+                "Criação de api's com Django, Flask, Node.js", 
+                "Criação de micro serviço com Flask e Pyramid.", 
+                "Desenvolvimento de templates em Angular, React e Vue.js."
               ]}
             />
           </Col>
           <Col md={6} className="resume-right">
             <h3 className="resume-title">Education</h3>
             <Resumecontent
-              title="IMSC MATHS AND COMPUTING [BIT Mesra, Ranchi] "
-              date="2018 - Present"
-              content={[`CGPA: ${cgpa} (Till ${sem}th Sem)`]}
-            />
-            <Resumecontent
-              title="12TH BOARD [ODM Public School,Odisha]"
+              title="Análise e Desenvolvimento de Sistemas"
+              empresa = "UniFanor Wydem"
+              // title="12TH BOARD [ODM Public School,Odisha]"
               date="2015 - 2017"
-              content={["Precentage: 88%"]}
+              content={["Precentage: 100%"]}
             />
             <Resumecontent
-              title="10TH BOARD [ST Mary's School,Odisha] "
-              date="2005 - 2015"
-              content={["Precentage: 86%"]}
+              title="Ciência da Computação [Trancado]"
+              date="2015 - 2017"
+              content={["Precentage: 56%"]}
             />
             <h3 className="resume-title">Ranks and Achivements</h3>
             <Resumecontent
               title=""
               content={[
-                `Current rank in Spoj ${spojRank}`,
-                `Current rank in HackerRank  ${hackerrank}`,
-                "Top Performer in Code-Break 1.0",
-                "Participant in Hack-A-Bit 2019",
+                `3º lugar HackFlag (UniFanor)`,
               ]}
             />
             <h3 className="resume-title">Extracurricular Activities</h3>
             <Resumecontent
-              title="Web Developer [Pantheon-2019 Technical Fest of BIT Mesra]"
+              title="Gestor da Fabrica de Software"
               content={[
-                "Worked on creating the frontend-end of the website using Bootstrap, Javascript.",
+                "Gerencia Equipes de Desenvovolvimento.",
+                "Gerir demandas.",
+                "Estudar o Uso de Novas Tecnogias"
               ]}
             />
             <Resumecontent
-              title="Web Developer [Bitotsav-2020 Technical Fest of BIT Mesra]"
+              title="Lider de Turma"
               content={[
-                "Operated on developing the frontend end of the website using Bootstrap, Javascript and backend APIs using Node.js",
+                "Organizar Pedidos dos Alunos.",
+                "Repesentar o Curso"
+              ]}
+            />
+            <Resumecontent
+              title="Monitor de Programação"
+              content={[
+                "Auxiliar os Professores no pos aula",
+                "Ensinar Algoritimos",
+                "Programação Orientada a Objeto",
+                "Estrutuara de Dados"
               ]}
             />
           </Col>
