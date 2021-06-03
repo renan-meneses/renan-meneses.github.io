@@ -6,6 +6,9 @@ function ResumeContent(props) {
       <h5 className={props.title ? "resume-title" : "resume-no-title"}>
         {props.title}
       </h5>
+      <h6 className={props.empresa ? "resume-title" : "resume-no-title"}>
+        {props.empresa}
+      </h6>
       <p>
         <em>{props.date}</em>
       </p>

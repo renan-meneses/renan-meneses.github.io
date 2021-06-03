@@ -39,24 +39,40 @@ function Resume() {
           <Col md={6} className="resume-left">
             <h3 className="resume-title">Experience</h3>
             <Resumecontent
+              title="Assistente Adminstrativo"
+              empresa = "MWV Rigesa"
+              date="Fevereiro 2014 - Março 2015"
+              content={[
+                "Criação de rotinas, recebimento e expedição de materiais, veriﬁcação de equipamentos de informática, lançamento de notas no SAP",
+              ]}
+            />
+            <Resumecontent
+              title="Desenvolvedor"
+              empresa = "Freelancer"
+              date="Março 2017 -  2019"
+              content={[
+                "Criação de api's em Laravel, Django e Springboot, correção de sistemas em python, PHP e Java, criação de aplicativos híbridos com React Native, criação te templates com Bootstrap e ReactJs.",
+                
+              ]}
+            />
+            <Resumecontent
+              title="Analista de desenvolvimento/ desenvolvedor"
+              empresa = "SoftMidia"
+              date="June 2020 - August 2020"
+              content={[
+                "Criação de api's em python e Laravel",
+                "desenvolvimento de templates em Bootstrap e ReactJs.", 
+                "criação de automações em python e integração.",
+                "manutenção de bancos de dados MySql."
+              ]}
+            />
+            <Resumecontent
               title="JUNIOR ML ENGINEER [Omdena]"
+              empresa = "Freelancer"
               date="June 2020 - August 2020"
               content={[
                 "Assembled the data from various social media platforms using Twitter, Reddit.Interpreted the collected text using word-clouds and various other factors that affect the change of sentiments of youth.",
                 " Utilized the data to find the issues using Topic Modelling and Building models using LSTM, BERT to predict the sentiments of the youth.",
-              ]}
-            />
-            <h3 className="resume-title">Extracurricular Activities</h3>
-            <Resumecontent
-              title="Web Developer [Pantheon-2019 Technical Fest of BIT Mesra]"
-              content={[
-                "Worked on creating the frontend-end of the website using Bootstrap, Javascript.",
-              ]}
-            />
-            <Resumecontent
-              title="Web Developer [Bitotsav-2020 Technical Fest of BIT Mesra]"
-              content={[
-                "Operated on developing the frontend end of the website using Bootstrap, Javascript and backend APIs using Node.js",
               ]}
             />
           </Col>
@@ -85,6 +101,19 @@ function Resume() {
                 `Current rank in HackerRank  ${hackerrank}`,
                 "Top Performer in Code-Break 1.0",
                 "Participant in Hack-A-Bit 2019",
+              ]}
+            />
+            <h3 className="resume-title">Extracurricular Activities</h3>
+            <Resumecontent
+              title="Web Developer [Pantheon-2019 Technical Fest of BIT Mesra]"
+              content={[
+                "Worked on creating the frontend-end of the website using Bootstrap, Javascript.",
+              ]}
+            />
+            <Resumecontent
+              title="Web Developer [Bitotsav-2020 Technical Fest of BIT Mesra]"
+              content={[
+                "Operated on developing the frontend end of the website using Bootstrap, Javascript and backend APIs using Node.js",
               ]}
             />
           </Col>

@@ -5,9 +5,35 @@ import BlogCard from "./BlogsCards";
 import Particle from "../Particle";
 import "../../style.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import axios from "axios";
+import { render } from "@testing-library/react";
 
+
+// function CardRepos (repos) {
+//   var repositorio = []
+//   repos.forEach(function repos(repo , index){
+//     console.log("Nome: " + repo.name + " | Descricao: " + repo.description + " | link :" + repo.html_url + " | linguagem: " + repo.language)
+//     repositorio = repo   
+//   })
+//   return repositorio
+// }
 
 function Projects() {
+  // var repos = [] 
+  const options = {
+    method: 'GET',
+    url: 'https://api.github.com/users/renan-meneses/repos',
+    headers: {Accept: 'application/vnd.github.v3+json'}
+  };
+  var prot = []
+  var repos = []
+axios.request(options).then(function (response) {
+  
+  repos.push(response.data)
+}).catch(function (error) {
+    console.error(error);
+});
+
   return (
     <Container fluid className="project-section">
       <Particle />
@@ -16,81 +42,28 @@ function Projects() {
           My Recent <strong className="purple">Works </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Algunsdos meis trabalhos mais recentes        
+          Alguns trabalhos e estudos        
 </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
-          {/* <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={leaf}
-              isBlog={false}
-              title="Plant AI"
-              description="Used the plant disease dataset from Kaggle and trained a image classifer model using 'PyTorch' framework using CNN and Transfer Learning with 38 classes of various plant leaves. The model was successfully able to detect diseased and healthy leaves of 14 unique plants. I was able to achieve an accuracy of 98% by using Resnet34 pretrained model."
-              link="https://github.com/renan-meneses/Plant_AI"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={editor}
-              isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              link="https://github.com/renan-meneses/Editor.io"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={suicide}
-              isBlog={false}
-              title="Ai For Social Good"
-              description="Using 'Natural Launguage Processing' for the detection of suicide-related posts and user's suicide ideation in cyberspace  and thus helping in sucide prevention."
-              link="https://github.com/renan-meneses/AI_For_Social_Good"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={emotion}
-              isBlog={false}
-              title="Face Recognition and Emotion Detection"
-              description="Trained a CNN classifier using 'FER-2013 dataset' with Keras and tensorflow backened. The classifier sucessfully predicted the various types of emotions of human. And the highest accuracy obtained with the model was 60.1%.
-              Then used Open-CV to detect the face in an image and then pass the face to the classifer to predict the emotion of a person."
-              link="https://github.com/renan-meneses/Face_And_Emotion_Detection"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={eeg}
-              isBlog={false}
-              title="Emotion Predcition from EEG Signals"
-              description="Using EEG signals from 'AMIGOS' Dataset to extract features and train a classifier that helps in detection of human emotions from Brain Signals."
-              link="https://gist.github.com/renan-meneses/4d44b47026126e9678e69bd9283154cb"
-            />
-          </Col>
+        
+        {repos.map(repo =>{
+    return(
+      <Col md={4} className="project-card">
+          <ProjectCard
+          isBlog={false}
+          title= {repo.title}
+          description={repo.title}
+          link={repo.html_url}
+        />
+    </Col>)
+  })}
         </Row>
         <h1 className="project-heading">
           My Recent <strong className="purple">Blog </strong> Posts
         </h1>
-        <p style={{ color: "white" }}>Do give a read to some of my blogs</p>
+        <p style={{ color: "white" }}>Alguns dos meus post</p>
         <Row style={{ justifyContent: "center" }}>
-          <Col md={4} className="blog-card">
-            <BlogCard
-              imgPath={algo}
-              link=""
-              title="Cracking Interview"
-              site="gitbook.com"
-            />
-          </Col>
-          <Col md={4} className="blog-card">
-            <BlogCard
-              imgPath={plant}
-              link="https://medium.com/jovianml/plant-ai-c8fc95ed90e6"
-              title="Plant AI"
-              site="medium.com"
-            />
-        </Col>*/}
+        
         </Row> 
       </Container>
     </Container>
