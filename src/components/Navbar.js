@@ -47,16 +47,16 @@ function NavBar() {
           <Nav className="ml-auto" defaultActiveKey="#home">
             <Nav.Item>
               <Nav.Link as={Link} to="/" onClick={() => updateExpanded(false)}>
-                <i className="fas fa-home"></i> Home
+                <i className="fas fa-home"></i> Inicio
               </Nav.Link>
             </Nav.Item>
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/about"
+                to="/resume"
                 onClick={() => updateExpanded(false)}
               >
-                <i className="far fa-user"></i> About
+                <i className="far fa-file-alt"></i> Resume
               </Nav.Link>
             </Nav.Item>
             {/* <Nav.Item>
@@ -71,10 +71,10 @@ function NavBar() {
             <Nav.Item>
               <Nav.Link
                 as={Link}
-                to="/resume"
+                to="/about"
                 onClick={() => updateExpanded(false)}
               >
-                <i className="far fa-file-alt"></i> Resume
+                <i className="far fa-user"></i> Sobre
               </Nav.Link>
             </Nav.Item>
 

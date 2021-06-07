@@ -1,4 +1,4 @@
-import React from "react";
+import React, {Component} from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import BlogCard from "./BlogsCards";
@@ -20,20 +20,19 @@ import { render } from "@testing-library/react";
 
 function Projects() {
   // var repos = [] 
+  const {repos, setRepos} = []
+
   const options = {
     method: 'GET',
     url: 'https://api.github.com/users/renan-meneses/repos',
     headers: {Accept: 'application/vnd.github.v3+json'}
   };
   var prot = []
-  var repos = []
 axios.request(options).then(function (response) {
-  
-  repos.push(response.data)
+  this.setRepos({ repos: response.data });
 }).catch(function (error) {
     console.error(error);
 });
-
   return (
     <Container fluid className="project-section">
       <Particle />
